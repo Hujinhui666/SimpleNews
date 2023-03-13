@@ -1,0 +1,61 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"navigationBarBackgroundColor": "#31C27C",
+				"navigationBarTextStyle": "white",
+				"onReachBottomDistance": 150,
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#31C27C",
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#31C27C",
+                "navigationBarTitleText": "个人",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#31C27C",
+		"list": [
+			{
+				"text": "主页",
+				"pagePath": "pages/index/index",
+				"selectedIconPath": "static/images/icons-tb/home1.png",
+				"iconPath": "static/images/icons-tb/home2.png"
+			},
+			{
+				"text": "个人",
+				"pagePath": "pages/user/user",
+				"selectedIconPath": "static/images/icons-tb/account1.png",
+				"iconPath": "static/images/icons-tb/account2.png"
+			}
+		]
+	}
+}
