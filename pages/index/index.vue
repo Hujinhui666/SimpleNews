@@ -10,7 +10,7 @@
 
 			<view class="contentBox">
 				<view class="row" v-for="item in newsDta" :key="item.id">
-					<newsbox @click.native="gotoDetail(item)" :item="item"></newsbox>
+					<newsbox v-show="item.id !== '259' " @click.native="gotoDetail(item)" :item="item"></newsbox>
 				</view>
 			</view>
 		</view>
