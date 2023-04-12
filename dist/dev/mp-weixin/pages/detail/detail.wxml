@@ -1,0 +1,1 @@
+<view class="detail"><view class="titel">{{''+detailList.title+''}}</view><view class="info"><view class="author">{{''+detailList.author+''}}</view><view class="time">{{'发布时间:'+detailList.posttime+''}}</view></view><view class="content"><rich-text nodes="{{detailList.content}}"></rich-text></view><view class="description">版权声明</view></view>

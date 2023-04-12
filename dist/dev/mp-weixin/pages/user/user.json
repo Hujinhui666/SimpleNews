@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#31C27C",
+  "navigationBarTitleText": "个人",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "newsbox": "/components/newsbox/newsbox"
+  }
+}

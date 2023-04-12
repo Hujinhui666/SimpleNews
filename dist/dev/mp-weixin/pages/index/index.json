@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "新闻",
+  "navigationBarBackgroundColor": "#31C27C",
+  "navigationBarTextStyle": "white",
+  "onReachBottomDistance": 150,
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "newsbox": "/components/newsbox/newsbox"
+  }
+}
